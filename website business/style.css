@@ -1,0 +1,721 @@
+*{  
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;}
+.navbar{
+
+    background:blue;
+    display: flex;
+    padding: 30px 120px;}
+.logo{
+
+    color: white;
+    font-weight: bold;
+    font-size: x-large;}
+.navdiv{
+
+
+    width: 100%;
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    margin:0px 150px;}
+a{
+text-decoration: none;
+color: white;}
+.banner{
+
+    background:blue;
+    width: 100%;
+    height:auto;
+    display: flex;}
+.image1 img{
+    display: flex;
+    flex-wrap: wrap;
+    float: right;
+    width:550px;
+    height:440px;
+    border-radius: 10px;
+    margin: 50px 45px 50px -10px;}
+.paraandbutton{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: 120px;
+
+    height: 500px;
+    color: white;
+    width: 580px;
+}
+.paraandbutton h1{
+    font-size:40px ;}
+.paraandbutton .button1{
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    border-color: white;
+    color:blue;
+    font-weight: bold;}
+.button1:hover{
+    background:blue;
+    color: white;}
+
+
+
+
+
+.homepage{
+
+    background: lightcyan;
+    width: 100%;
+    height:auto;
+    display: flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 150px;
+}
+.paraandbutton2{
+     font-size: large;
+     height: 500px;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-around;
+     margin-left: 80px;
+     
+}
+.paraandbutton2 h3{
+    padding-bottom: 30px;
+}
+.homepage nav{
+    background:lightcyan;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.homepage nav button{
+    height: 40px;
+    width: 120px;
+    border-radius: 5px;
+    color: white;
+    background:blue;
+}
+.homepage nav button:hover{
+    background:white;
+    color: #000;
+
+}
+
+
+
+
+
+.servicespage{
+
+    height:auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.paraandbutton3{    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 400px;
+    padding: 100px;
+}
+.paraandbutton3 button{
+    width: 120px;
+    height: 35px;
+    border-radius: 20px;
+    border-color: blue;
+    color: blue;
+}
+.paraandbutton3 h2{
+    
+    padding-top: 30px;
+}
+.paraandbutton3 p{
+
+    padding-top: 30px;
+}
+.cards{
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    flex-wrap: wrap;
+}
+.servicespagecards1row{
+
+
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: -50px;
+}
+.servicespagecards1row .card1{
+    
+    border-radius: 10px;
+    padding-left: 30px;
+    width: 350px;
+    border:1.5px solid lightcyan;
+    margin-right: 20px;
+}
+.servicespagecards1row .card2{
+    margin-right: 20px;
+    padding-left: 30px;
+
+    border-radius: 10px;
+    width: 350px;
+    border: 1.5px solid lightcyan;
+}
+.servicespagecards1row .card3{
+    padding-left: 30px;
+
+    border-radius: 10px;
+    width: 350px;
+    border: 1.5px solid lightcyan;
+}
+.servicespagecards2row{
+
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 70px;
+}
+.servicespagecards2row .card4{
+    border-radius: 10px;
+    margin-right: 20px;
+    padding-left: 30px;
+    width: 350px;
+    border: 1.5px solid lightcyan;
+
+}
+.servicespagecards2row .card5{
+    margin-right: 20px;
+    padding-left: 30px;
+    border-radius: 10px;
+    width: 350px;
+    border: 1.5px solid lightcyan;
+}
+.servicespagecards2row .card6{
+    border-radius: 10px;
+    padding-left: 30px;
+    width: 350px;
+    border: 1.5px solid lightcyan;
+
+}
+
+
+
+.servicespage1{
+
+    background:lightcyan;
+     height:auto;
+}
+.paraandbutton4{ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 400px;
+    padding: 100px;
+    margin-top: 200px;
+}
+.paraandbutton4 button{
+    width: 180px;
+    height:40px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    color: blue;
+    border-color: blue;
+}
+.paraandbutton4 h2{
+
+    margin-bottom: 20px;
+    font-size: xx-large;
+}
+.servicespage img{
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     flex-direction: column;
+}
+.servicespage1image{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: -50px;
+}
+
+
+
+
+
+.Portfolliopage{
+
+    height:auto;
+}
+.paraandbutton5{
+
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 400px;
+    padding: 100px;
+}
+.paraandbutton5 button{
+
+    width: 180px;
+    height:40px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    color: blue;
+    border-color: blue;
+}
+.paraandbutton5 h2{
+    
+    margin-bottom: 20px;
+    font-size: xx-large;
+}
+.Portfolliopagenavbar{
+
+
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap; 
+    margin-top: -70px;
+}
+.Portfolliopagenavbar button{
+    border: none;
+    width: 150px;
+    height: 40px;
+    font-size: large;
+    background: none;
+}
+.Portfolliopagenavbar button:hover{
+    color: blue;
+    text-decoration: underline;
+}
+.portfolliopagecards1row{
+
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 50px;
+}
+.portfolliopagecards2row{
+
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 50px;
+}
+
+.portfolliopagecards1row .cards img{
+    
+    border-radius: 10px;
+    width: 360px;
+    height: 290px;
+}
+
+.portfolliopagecards2row .cards img{
+    border-radius: 10px;
+    width: 360px;
+    height: 290px;
+}
+.portfolliopagecards1row h2{
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.portfolliopagecards2row h2{
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+
+
+
+
+
+.pricingpage{
+
+    height:auto;
+    background:lightcyan;
+}
+.paraandbutton6{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 400px;
+    padding: 100px;
+}
+.paraandbutton6 button{
+
+    
+    width: 180px;
+    height:40px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    color: blue;
+    border-color: blue;
+}
+.paraandbutton6 h2{
+
+    
+    margin-bottom: 20px;
+    font-size: xx-large;
+}
+.pricingpagecards{
+
+    height: auto;
+    margin-top: -70px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.pricingpagecards .card{
+
+    width: 350px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    font-size: large;
+    background: white;
+    border-radius: 10px;
+}
+
+.pricingpagecards .dolor{
+    font-size: 50px;
+    font-weight:bold;
+}
+.pricingpagecards .freee button{
+
+    width: 100px;
+    height:35px;
+    border-radius: 20px;
+    color: blue;
+    border-color: blue;
+}
+.pricingpagecards .free button{
+    
+    width: 200px;
+    height:35px;
+    border-radius: 5px;
+    color: blue;
+    border-color: blue;
+}
+.pricingpagecards .freee{
+    display: flex;
+    justify-content: center;
+}  
+.pricingpagecards .free{
+    display: flex;
+    justify-content: center;
+}  
+.pricingpagecards .freee button:hover{
+    background: blue;
+    color: white;
+}
+.pricingpagecards .free button:hover{
+    background: blue;
+    color: white;
+}
+
+
+
+
+.teampage{
+    height:auto;
+}
+.paraandbutton7{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 400px;
+    padding: 100px;
+}
+.paraandbutton7 button{
+    width: 180px;
+    height:40px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    color: blue;
+    border-color: blue;
+}
+.paraandbutton7 h2{
+
+    
+    
+    margin-bottom: 20px;
+    font-size: xx-large;
+}
+.teampagecards{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: -80px;
+}
+.teampagecards .card{
+    background:lightblue;
+    height: 350px;
+    border-radius: 15px;
+    text-align: center;
+}
+.teampagecards .card img{
+    width: 360px;
+    height: 300px;
+    border-radius:15px 15px 0 0;
+}.teampagecardstext:hover{
+    background: blue;
+    color: white;
+    height:50px;
+    border-radius:0 0 15px 15px ;
+}
+.teampage .teampagebanner{
+
+    background:blue;
+    width: 100%;
+    height: auto;
+    margin-top: 120px;
+    text-align: center;
+    padding: 130px 0 130px 0;
+    color: white;
+}
+.teampagebanner p{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.teampagebanner button{
+    width: 200px;
+    height: 50px;
+    font-weight: bold;
+    font-size: large;
+    background:none;
+    border-color: white;
+    color: white;
+    border-radius: 5px;
+}
+.teampagebanner h1{
+    font-size:50px;
+}
+.teampagebanner p{
+    font-size: 20px;
+}
+.teampagebanner button:hover{
+    background: white;
+    color: blue;
+}
+
+
+
+.newspage{
+    height: auto;
+    width: 100%;
+}
+.paraandbutton8{
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-content: center;
+    flex-wrap: wrap;
+    padding-top: 80px;
+}
+.paraandbutton8 button{
+    width: 180px;
+    height:40px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    color: blue;
+    border-color: blue;
+}
+.paraandbutton8 h1{
+    margin-bottom: 20px;
+    font-size: xx-large;
+}
+
+
+
+.newspagecards{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 80px;
+    
+}
+.newspagecards img{
+    height: 260px;
+    width: 360px;
+    border-radius: 10px;
+}
+.newspagecards h2{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.newspagecards h2:hover{
+    color: blue;
+}
+
+
+
+
+.contectmainpage{
+
+    margin-top: 100px;
+    width: 100%;
+    height:500px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.form{
+
+    text-align: center;
+    border: 3px solid lightcyan;
+    border-radius: 10px;
+    width: 700px;
+    padding-top: 30px;
+    box-shadow:2px 2px lightcyan ;
+}
+.form h3{
+    color: blue;
+    padding-bottom: 20px;
+}
+.form h1{
+    font-size:40px;
+}
+.form p{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+.form .forminput{
+    margin-bottom: 30px;
+    width: 300px;
+    height: 50px;
+    border-radius: 30px;
+    padding-left: 15px;
+    font-size: large;
+    border: 3px solid lightcyan;
+}
+.form .formtext{
+    border-radius: 15px;
+    border-color: lightcyan;
+    width:600px;
+    height: auto;
+    font-size: large;
+    padding: 10px 0 60px 10px;
+}
+
+
+
+.contectpage{
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-left: 30px;
+}
+.contectpage .card11{
+    border: 3px solid lightcyan;
+    width: 300px;
+    height: 130px;
+    border-radius: 10px;
+    padding: 10px 0px 0px 10px;
+    box-shadow:2px 2px lightcyan;
+    
+}
+.contectpage h2{
+
+    padding-bottom: 20px;
+    color: blue;
+}
+
+
+
+
+.footer{
+    background:lightcyan;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 50px;
+    padding-top: 30px;
+    height: 300px;
+}
+.footer .row1 h1{
+    padding-bottom: 20px;
+    
+}
+.footer .row1 p{
+    padding-bottom: 80px;
+}
+.footer .row2 h1{
+    padding-bottom: 20px;
+}
+.footer .row2 p{
+    padding-bottom: 20px;
+}
+.footer .row3 h1{
+    padding-bottom: 20px;
+}
+.footer .row3 p{
+    padding-bottom: 20px;
+}
+.footer .row4 h1{
+    padding-bottom: 20px;
+}
+.footer .row4 p{
+    padding-bottom: 20px;
+}
+@media only screen and (max-width:992px) {
+    .customerreviewpage{
+        height:auto;
+        background: blue;
+    }
+    .navdiv{
+        display: none;
+    }
+    .paraandbutton{
+        display: flex;
+        flex-direction: column;
+        width: 600px;
+    }
+    .banner{
+        flex-direction: column;
+        height: 1000px;
+        align-items:center;
+    }
+    .homepage{
+        flex-direction: column;
+        align-items: center;
+        height: 1200px;
+        padding-top: 50px;
+    }
+
+}
+    
